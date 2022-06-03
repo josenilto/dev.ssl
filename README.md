@@ -1,6 +1,8 @@
 ## Dev SSL | Crie um arquivo de certificado .pfx / .p12 usando OpenSSL
 
-Na criptografia, o formato PKCS # 12 ou PFX é um formato binário freqüentemente usado para armazenar todos os elementos da cadeia de confiança, como o certificado do servidor, quaisquer certificados intermediários e a chave privada em um único arquivo criptografável.         Os arquivos PFX são geralmente encontrados com as extensões .pfx e .p12. Os arquivos PFX são normalmente usados ​​em máquinas Windows e macOS para importar e exportar certificados e chaves privadas.
+Na criptografia, o formato PKCS # 12 ou PFX é um formato binário freqüentemente usado para armazenar todos os elementos da cadeia de confiança, como o certificado do servidor, quaisquer certificados intermediários e a chave privada em um único arquivo criptografável.         
+
+Os arquivos PFX são geralmente encontrados com as extensões .pfx e .p12. Os arquivos PFX são normalmente usados ​​em máquinas Windows e macOS para importar e exportar certificados e chaves privadas.
 
 A chave privada original usada para o certificado
 
