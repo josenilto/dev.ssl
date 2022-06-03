@@ -36,7 +36,7 @@ Isso é opcional, se você tiver quaisquer certificados adicionais que gostaria 
 
 
 
-PKCS # 7 / P7B (.p7b, .p7c) para PFX
+*PKCS # 7 / P7B (.p7b, .p7c) para PFX*
 
 
 Os arquivos P7B não podem ser usados ​​para criar diretamente um arquivo PFX.       
@@ -49,13 +49,13 @@ Quebrando o comando:
 ✅ openssl         
 O comando para executar OpenSSL
 
-✅ pkcs7       
+✅ pkcs7         
 O utilitário de arquivo para arquivos PKCS # 7 em OpenSSL
 
-✅ -print_certs -in certificate.usuporte.com.br.p7b
+✅ -print_certs -in certificate.usuporte.com.br.p7b     
 Imprime quaisquer certificados ou CRLs contidos no arquivo.
 
-✅ -out certificate.usuporte.com.br.crt
+✅ -out certificate.usuporte.com.br.crt     
 produza o arquivo como certificate.crt
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
