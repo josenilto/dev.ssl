@@ -19,14 +19,14 @@ Quebrando o comando:
 openssl - o comando para executar OpenSSL       
 pkcs12 - o utilitário de arquivo para arquivos PKCS # 12 em OpenSSL     
 
--export -out certificate.pfx        
+**-export -out certificate.usuporte.com.br.pfx**        
 exportar e salvar o arquivo PFX como certificate.pfx     
 
-** inkey privateKey.key **      
+**-inkey privateKey.usuporte.com.br.key**      
 use o arquivo de chave privada privateKey.key como a chave privada a ser combinada com o certificado.       
 
-** in certificate.crt **     
+**-in certificate.usuporte.com.br.crt**     
 use certificate.crt como o certificado com o qual a chave privada será combinada.     
 
-** certfile more.crt **     
+**-certfile more.usuporte.com.br.crt**     
 Isso é opcional, se você tiver quaisquer certificados adicionais que gostaria de incluir no arquivo PFX.       
