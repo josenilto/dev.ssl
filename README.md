@@ -16,8 +16,11 @@ PEM (.pem, .crt, .cer) para PFX
 
 Quebrando o comando:
 
-openssl - o comando para executar OpenSSL       
-pkcs12 - o utilitário de arquivo para arquivos PKCS # 12 em OpenSSL     
+**openssl**     
+O comando para executar OpenSSL       
+
+**pkcs12**      
+O utilitário de arquivo para arquivos PKCS # 12 em OpenSSL     
 
 **-export -out certificate.usuporte.com.br.pfx**        
 exportar e salvar o arquivo PFX como certificate.pfx     
