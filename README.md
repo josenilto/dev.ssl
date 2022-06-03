@@ -14,6 +14,8 @@ Os comandos abaixo demonstram exemplos de como criar um arquivo .pfx / .p12 na l
 
 > openssl pkcs12 -export -out certificate.usuporte.com.br.pfx -inkey privateKey.usuporte.com.br.key -in certificate.usuporte.com.br.crt -certfile more.usuporte.com.br.ca
 
+
+
 Quebrando o comando:
 
 ✅ openssl       
@@ -44,6 +46,8 @@ Os arquivos P7B devem ser convertidos para PEM.
 Depois de convertido em PEM, siga as etapas acima para criar um arquivo PFX a partir de um arquivo PEM.
 
 > openssl pkcs7 -print_certs -in certificate.usuporte.com.br.p7b -out certificate.usuporte.com.br.crt
+
+
 
 Quebrando o comando:
 
