@@ -34,8 +34,11 @@ use certificate.crt como o certificado com o qual a chave privada será combinad
 ✅-certfile more.usuporte.com.br.crt     
 Isso é opcional, se você tiver quaisquer certificados adicionais que gostaria de incluir no arquivo PFX.     
 
-Depois de inserir o comando, você será solicitado a inserir e verificar uma senha de exportação para proteger o arquivo PFX.        
-Lembre-se desta senha! Você precisará disso quando desejar exportar os certificados e a chave.
+Depois de inserir o comando.        
+Você será solicitado a inserir e verificar uma senha de exportação para proteger o arquivo PFX.         
+
+Lembre-se desta senha!      
+Você precisará disso quando desejar exportar os certificados e a chave.
 
 **PKCS # 7 / P7B (.p7b, .p7c) para PFX**
 
