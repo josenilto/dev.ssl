@@ -1,4 +1,4 @@
-## Dev SSL | Crie um arquivo de certificado .pfx / .p12 usando OpenSSL
+## 🛠 Dev SSL | Crie um arquivo de certificado .pfx / .p12 usando OpenSSL
 
 Na criptografia, o formato PKCS # 12 ou PFX é um formato binário freqüentemente usado para armazenar todos os elementos da cadeia de confiança, como o certificado do servidor, quaisquer certificados intermediários e a chave privada em um único arquivo criptografável.         
 
