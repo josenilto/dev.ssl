@@ -10,7 +10,7 @@ A chave privada original usada para o certificado
 
 Os comandos abaixo demonstram exemplos de como criar um arquivo .pfx / .p12 na linha de comando usando OpenSSL:
 
-PEM (.pem, .crt, .cer) para PFX
+**PEM (.pem, .crt, .cer) para PFX**
 
 > openssl pkcs12 -export -out certificate.usuporte.com.br.pfx -inkey privateKey.usuporte.com.br.key -in certificate.usuporte.com.br.crt -certfile more.usuporte.com.br.ca
 
@@ -36,7 +36,7 @@ Isso é opcional, se você tiver quaisquer certificados adicionais que gostaria 
 
 
 
-*PKCS # 7 / P7B (.p7b, .p7c) para PFX*
+**PKCS # 7 / P7B (.p7b, .p7c) para PFX**
 
 
 Os arquivos P7B não podem ser usados ​​para criar diretamente um arquivo PFX.       
@@ -57,5 +57,6 @@ Imprime quaisquer certificados ou CRLs contidos no arquivo.
 
 ✅ -out certificate.usuporte.com.br.crt     
 produza o arquivo como certificate.crt
+
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
